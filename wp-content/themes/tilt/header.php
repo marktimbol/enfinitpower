@@ -16,7 +16,8 @@
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
 		<?php if (ot_get_option('favicon')){
-			echo '<link rel="shortcut icon" href="'. esc_url(ot_get_option('favicon')) .'" />';
+			echo '<link rel="shortcut icon" href="'. esc_url(ot_get_option('favicon')) .'" type="image/x-icon" />';
+			echo '<link rel="icon" href="'. esc_url(ot_get_option('favicon')) .'" type="image/x-icon">';
 		}
 
 		if (ot_get_option('ipad_favicon_retina')){
