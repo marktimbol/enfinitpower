@@ -23,7 +23,7 @@
 define('DB_NAME', getenv('DB_DATABASE'));
 
 /** MySQL database username */
-define('DB_USER', getenv('DB_USE'));
+define('DB_USER', getenv('DB_USER'));
 
 /** MySQL database password */
 define('DB_PASSWORD', getenv('DB_PASSWORD'));
